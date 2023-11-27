@@ -34,13 +34,13 @@ public class BinarryToDecimal{
         }
 
         //chane the binarry to decimal
-        int sum = 0;
+        int value = 0;
         for(int i = 0; i < arr.length; i++){
             int base = 2;
-            sum += (int) (arr[i] * Math.pow(base, i));
+            value += (int) (arr[i] * Math.pow(base, i));
         }
 
-        return sum;
+        return value;
     }
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
