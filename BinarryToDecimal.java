@@ -1,14 +1,11 @@
 
 /* 
     Exercise 1.8: Binary to Decimal Conversion
-
     Write a method named displayDecimal that takes a binary number represented
     as a string and returns its decimal equivalent.
-
     For example:
     - Calling displayDecimal("1101") should return 13.
     - Calling displayDecimal("10101") should return 21.
-
     Note: Ensure that the input is a valid binary string before conversion.
 */
 
