@@ -13,7 +13,7 @@ public class LargestRowSum{
     }
 
    public int[][] randomValue(int[]...matrix){
-        for(int row = 0; row<matrix.length; row++){
+        for(int row = 0; row < matrix.length; row++){
             for(int col = 0; col < matrix[row].length; col++){
                 matrix[row][col] = (int)(Math.random()*100);
             }
