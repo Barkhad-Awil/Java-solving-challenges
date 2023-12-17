@@ -1,7 +1,7 @@
 /*
  * Question 3.1: Write a program that counts the number of correct answers for each student. 
  * Create a class called GradeExam and implement a method called countCorrectAnswers. 
- * You have a two-dimensional array representing responses from 8 students, each with 10 answers. 
+ * You have a two-dimensional array representing responses from 4 students, each with 10 answers. 
  * Compare these responses with the correct key answers stored in the key array. 
  * Ensure your countCorrectAnswers method correctly identifies and counts the accurate answers for each student.
  */
