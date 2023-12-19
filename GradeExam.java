@@ -5,6 +5,7 @@
  * Compare these responses with the correct key answers stored in the key array. 
  * Ensure your countCorrectAnswers method correctly identifies and counts the accurate answers for each student.
  */
+
 public class GradeExam {
 
     public void countCorrectAnswers(char[] key, char[][] answers) {
@@ -21,6 +22,7 @@ public class GradeExam {
 
     public static void main(String[] args) {
         char[] key = {'D', 'B', 'D', 'C', 'C', 'D', 'A', 'E', 'A', 'D'};
+        
         char[][] studentAnswers = {
             {'A', 'B', 'A', 'C', 'C', 'D', 'E', 'E', 'A', 'D'},
             {'D', 'B', 'A', 'B', 'C', 'A', 'E', 'E', 'A', 'D'},
