@@ -8,12 +8,12 @@ represents 24 hours, and the third index ranges from 0 to 1 and represents tempe
 
 
 import java.util.Scanner;
-public class Test {
+public class Weather {
     final int NUMBER_OF_DAYS;
     final int NUMBER_OF_HOURS;
     final int LENGTH_OF_ARRAY;
 
-    Test(int d, int h, int l) {
+    Weather(int d, int h, int l) {
         NUMBER_OF_DAYS = d;
         NUMBER_OF_HOURS = h;
         LENGTH_OF_ARRAY = l;
@@ -54,7 +54,7 @@ public class Test {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        Test obj = new Test(2, 24, 2);
+        Weather obj = new Weather(2, 24, 2);
         double[][][] data = obj.arrayValues(input);
         obj.calcAverageTempAndHum(data);
     }
