@@ -30,7 +30,7 @@ public class GreatestNumberCandies {
     public static void main(String[] args){
         int[] candies = {2,3,5,1,3};
         int extraCandies = 3;
-        List<Boolean> res = kidsWithCandies(candies, 3);
+        List<Boolean> res = kidsWithCandies(candies, extraCandies);
         System.out.println(res);
     }
 }
