@@ -1,3 +1,8 @@
+
+/*
+ * Question 4.5"
+ * Given the an array of strings calculate the array element which contain the biggest the number of words
+ */
 public class BiggestSentence {
     public static int findBiggestStringElement(String[] sentences){
         int maxNumberWords = 0;
