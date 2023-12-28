@@ -1,3 +1,11 @@
+/*
+ * Question 4.2:
+ * given an array of integers, loop the array and count the Smaller Numbers Than Current number nums[i] in the array
+ * return an array contains the count of the numbers less than for each nums[i]
+ * input nums = {8,1,2,2,3};
+ * output ans = {4,0,1,1,3};
+ */
+
 public class NumberSmallCurrentNum {
     public static int[] smallerNumbersThanCurrent(int[] nums) {
         int[] ans = new int[nums.length];

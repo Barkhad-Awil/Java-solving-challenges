@@ -1,6 +1,6 @@
 
 /*
- * Question 4.5"
+ * Question 4.3"
  * Given the an array of strings calculate the array element which contain the biggest the number of words
  */
 public class BiggestSentence {
