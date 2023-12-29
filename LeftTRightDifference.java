@@ -1,4 +1,4 @@
-public class Demo {
+public class LeftTRightDifference {
     public static int[] leftRightDifference(int[] nums){
         int[] leftSum = new int[nums.length];
         int[] rightSum = new int[nums.length];
