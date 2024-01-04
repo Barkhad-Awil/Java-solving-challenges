@@ -1,3 +1,5 @@
+import org.w3c.dom.NodeList;
+
 class ListNode {
 
   int val;
@@ -15,9 +17,9 @@ class ListNode {
   }
 }
 
-class Solution {
+public class BinnaryNumberLinkedList {
 
-  public int getDecimalValue(ListNode head) {
+  public static int getDecimalValue(ListNode head) {
     int result = 0;
 
     while (head != null) {
@@ -30,21 +32,13 @@ class Solution {
 
     return result;
   }
-}
 
-public class BinnaryNumberLinkedList {
+  public static void main(String... args) {
+    ListNode head = new ListNode(1);
+    head.next = new ListNode(0);
+    head.next.next = new ListNode(1);
 
-  public int getDecimalValue(ListNode head) {
-    int result = 0;
-
-    while (head != null) {
-      //Left-shift the current result by 1 and add, current element value
-      result = (result << 1) + head.val;
-
-      //move to the next node
-      head = head.next;
-    }
-
-    return result;
+    int decimal = getDecimalValue(head);
+    System.out.println(decimal);
   }
 }
