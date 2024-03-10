@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /*
- * Problem Description
+ * Problem 6.3:
  * Create a Java program to find the permutation of a given string.
  * Example Input = "ace";
 Expected Output "ace aec cae cea eac eca";
